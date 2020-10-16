@@ -4,12 +4,6 @@ html, body {
  font-family: 'Roboto Mono', monospace;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 1em 2em 1em;
-  max-width: 1024px;
-}
-
 h1 {
   font-family: 'Sansita Swashed', cursive;
   font-size: 4.2em;
@@ -19,4 +13,14 @@ h1 {
 h2 {
   font-size: 1.4em;
   margin: 1em 0 .5em 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1em 2em 1em;
+  max-width: 1024px;
+}
+
+.mixcloud-iframe {
+  background: #e9e9e9;
 }
