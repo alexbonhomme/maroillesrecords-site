@@ -1,0 +1,22 @@
+html, body {
+ padding: 0;
+ margin: 0;
+ font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1em 2em 1em;
+  max-width: 1024px;
+}
+
+h1 {
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 4.2em;
+  margin: .3em 0 .8em -.05em;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin: 1em 0 .5em 0;
+}
