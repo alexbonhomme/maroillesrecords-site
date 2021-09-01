@@ -1,18 +1,19 @@
-html, body {
- padding: 0;
- margin: 0;
- font-family: 'Roboto Mono', monospace;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
 }
 
 h1 {
-  font-family: 'Sansita Swashed', cursive;
+  font-family: "Sansita Swashed", cursive;
   font-size: 4.2em;
-  margin: .3em 0 .8em -.05em;
+  margin: 0.3em 0 0.8em -0.05em;
 }
 
 h2 {
   font-size: 1.6em;
-  margin: 1em 0 .5em 0;
+  margin: 0.5em 0;
 }
 
 h3 {
@@ -27,5 +28,36 @@ h3 {
 
 .mixcloud-iframe {
   background: #e9e9e9;
-  margin-bottom: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1em 1em 0.5em 1em;
+  color: #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+header a {
+  font-size: 2em;
+  color: #000;
+}
+
+.logo-header {
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 0.25em;
+}
+
+.artists-container {
+}
+
+.artists-row {
+  display: flex;
+}
+
+.artists-col {
+  flex: 1;
+  padding: 1em;
 }
