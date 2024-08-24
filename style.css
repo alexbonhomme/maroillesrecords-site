@@ -6,8 +6,8 @@ body {
 }
 
 h2 {
-  font-size: 1.8em;
-  margin: 0 0 1em 0;
+  font-size: 2em;
+  margin: 0 0 0.8em 0;
 }
 
 h3 {
@@ -27,6 +27,14 @@ h3 {
 
 .stream-iframe {
   background: #e9e9e9;
+}
+.stream-iframe.soundcloud {
+  border-radius: 4px;
+}
+
+.stream-iframe.spotify {
+  background: rgb(40, 40, 40);
+  border-radius: 12px;
 }
 
 header {
@@ -57,13 +65,25 @@ header a {
   display: flex;
 }
 
+.artists-col {
+  flex: 1;
+  padding: 1.2em 1em;
+}
+
+.artists-col.no-title {
+  padding-top: 5.1em;
+}
+
 @media (max-width: 425px) {
   .artists-row {
     flex-direction: column;
   }
-}
 
-.artists-col {
-  flex: 1;
-  padding: 1em;
+  .artists-col.no-title {
+    padding-top: 0em;
+  }
+
+  iframe {
+    overflow: hidden;
+  }
 }
